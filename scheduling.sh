@@ -1,5 +1,6 @@
 #!/bin/bash 
-
+# THis Script ignore Tag name if you update new image use same name with diff tag 
+# if you create new run new image use diff name previouse image so this script easy to manage docker images
 declare -A imagesCount
 
 abs() {
